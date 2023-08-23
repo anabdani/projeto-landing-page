@@ -71,3 +71,40 @@ body {
     font-size: 24px;
     color: #2f2325;
 }
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.conteudo-principal-imagem {
+    height: 430px;
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+    font-family: 'sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff2e7;
+}
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+
+}
+.rodape-imagem {
+    display: block;
+    margin: 0 auto;
+}
